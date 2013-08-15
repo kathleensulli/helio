@@ -1,0 +1,195 @@
+<style>
+
+body {
+	
+	margin: 0px;
+	
+}
+
+#helio-header {
+	
+	height: 136px;
+	width: 100%;
+	/*background: #D7EAFF;*/
+	background: #EEE;
+}
+
+
+
+#helio-header #helio-header-banner {
+	
+	height: 100px;
+	width: 960px;
+	display: block;
+	margin: auto;
+}
+
+#helio-logo {
+	width: 220px;
+	height: 100px;
+	background: url('http://www.helio-international.org/wordpress/images/helio-logo.png') no-repeat 0px 0px;
+	margin: 0px 30px 0px 0px;
+	float: left;
+}
+
+#helio-motto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 13px;
+	color: #000;
+	margin: 38px 40px 0px 0px;
+	float: left;
+} 
+
+#helio-search {
+	width: 200px;
+	height: 30px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	float: left;
+	margin: 30px 20px 0px 0px;
+}
+
+#helio-social {
+	width: 90px;
+	margin: 30px 0px 0px 0px;
+	float: left;
+	background: blue;
+}
+
+#helio-header #helio-navigation {
+	float: none;
+	clear: both;
+	display: block;
+	background: #333;
+	width: 100%;
+	height: 36px;
+	
+	
+}
+
+#helio-header #helio-navigation ul {
+	width: 960px;
+	margin: auto;
+	list-style: none;
+	/*-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;*/
+	-webkit-padding-start: 0px;	
+}
+
+
+#helio-header #helio-navigation ul li {
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 10px 36px;
+	border-right: 1px solid yellow;
+	border-left: none;
+	letter-spacing: 1px;
+}
+
+#helio-header #helio-navigation ul li.extraspace {
+	padding: 10px 38px;
+}
+
+#helio-header #helio-navigation ul li:first-child {
+	border-left: 1px solid yellow;
+}
+
+
+#helio-header #helio-navigation ul li a {
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+
+
+#helio-main {
+	width: 960px;
+	margin: 20px auto;
+	
+	
+}
+
+#helio-main .helio-featured {
+	width: 920px;
+	height:300px;
+	padding: 20px;
+	border: 1px solid #CCC;
+	
+	
+	
+}
+
+
+#helio-main .helio-featured .art {
+	width: 500px;
+	height:300px;
+	background: #DDD;
+	margin: 0 20px 0 0;
+	float: left;
+}
+
+
+#helio-main .helio-featured .text {
+	width: 400px;
+	height:300px;
+	float: left;
+	
+}
+
+#helio-main .helio-featured .text h1 {
+	color: #2163ce;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	line-height: 30px;
+	padding: 0px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+
+#helio-main .helio-featured .text p {
+	color: #777;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	
+}
+
+
+
+.helio-bubbles {
+    margin: 20px;
+}
+
+.helio-bubbles ul {
+	display: block;
+	list-style-type: none
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	
+	
+}
+
+li.bubble {
+    width: 80px;
+    height: 80px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    float: left;
+	margin: 0px 20px 0px 0px;
+	-webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc);
+}
+</style>
